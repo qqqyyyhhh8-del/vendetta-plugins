@@ -1,0 +1,1 @@
+(function(n,s,e){"use strict";const a=s.findByProps("MessagesHandlers"),d=e.after("MessagesHandlers",a,(o,t)=>{t?.handleCopyText&&e.instead("handleCopyText",t,()=>{})});return n.onUnload=d,n})({},vendetta.metro,vendetta.patcher);
