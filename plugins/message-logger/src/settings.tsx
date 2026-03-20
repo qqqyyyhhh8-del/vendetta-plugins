@@ -7,12 +7,19 @@ import { useProxy } from "@vendetta/storage";
 const { FormIcon, FormSwitchRow } = Forms;
 
 storage.nopk ??= false;
+storage.logEdits ??= true;
 
 export default () => {
   useProxy(storage);
 
   return (
     <ReactNative.ScrollView>
+      <FormSwitchRow
+        label="Log Edit History"
+        leading={<FormIcon source={getAssetIDByName("ic_audit_log_24px")} />}
+        onValueChange={(v) => void (storage.logEdits = v)}
+        value={storage.logEdits}
+      />
       <FormSwitchRow
         label="Ignore PluralKit"
         leading={<FormIcon source={getAssetIDByName("ic_block")} />}

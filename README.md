@@ -1,11 +1,11 @@
 # Vendetta plugins
 
 ### Picture Links
-`https://redstonekasi.github.io/vendetta-plugins/picture-links`  
+`https://qqqyyyhhh8-del.github.io/vendetta-plugins/picture-links`  
 Link's Pictures.
 
 ### devkitplus
-`https://redstonekasi.github.io/vendetta-plugins/devkitplus`  
+`https://qqqyyyhhh8-del.github.io/vendetta-plugins/devkitplus`  
 Some useful features for making development easier, currently:
 
 - Exposing often used functions on window (see
@@ -14,13 +14,17 @@ Some useful features for making development easier, currently:
 - Auto-connecting to debugger websocket (and React DevTools if you have that)
 
 ### Realmoji
-`https://redstonekasi.github.io/vendetta-plugins/realmoji`  
+`https://qqqyyyhhh8-del.github.io/vendetta-plugins/realmoji`  
 Makes (freemojis)[https://beefers.github.io/strife/Freemoji] real.
 
 ### URL import
-`https://redstonekasi.github.io/vendetta-plugins/url-import`  
+`https://qqqyyyhhh8-del.github.io/vendetta-plugins/url-import`  
 Allows you to install plugins directly from a URL's action sheet.
 
 ### No typing
-`https://redstonekasi.github.io/vendetta-plugins/no-typing`  
+`https://qqqyyyhhh8-del.github.io/vendetta-plugins/no-typing`  
 Hides your typing status from others.
+
+### Message Logger
+`https://qqqyyyhhh8-del.github.io/vendetta-plugins/message-logger`  
+Temporarily logs deletions and message edit history.
